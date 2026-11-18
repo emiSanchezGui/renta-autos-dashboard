@@ -122,6 +122,7 @@ table.curve { border-collapse: separate; border-spacing: 0; font-size: 12.5px; f
 .foot { text-align: center; font-size: 12px; padding: 8px 0 24px; }
 
 @media (max-width: 640px) {
+  .top { position: static; }
   .params, .pies { grid-template-columns: 1fr; }
   .slicer { min-width: 100%; }
   .prow { grid-template-columns: 1fr 120px 90px; }
